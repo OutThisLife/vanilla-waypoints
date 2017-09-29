@@ -13,15 +13,15 @@ vWaypoints($navLinks)
 HTML:
 ```HTML
 <nav>
-  <a href='javascript:;' to='#waypoint-1'>
+  <a href='javascript:;' className='waypoint' to='#waypoint-1'>
     Go to Waypoint 1
   </a>
 
-  <a href='javascript:;' to='#waypoint-2'>
+  <a href='javascript:;' className='waypoint' to='#waypoint-2'>
     Go to Waypoint 2
   </a>
 
-  <a href='javascript:;' to='#waypoint-3'>
+  <a href='javascript:;' className='waypoint' to='#waypoint-3'>
     Go to Waypoint 3
   </a>
 </nav>
