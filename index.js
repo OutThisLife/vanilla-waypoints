@@ -1,4 +1,4 @@
-import scroll from './scrollTo'
+import scroll from './scroll'
 
 export default $links => {
   const positions = []
