@@ -39,7 +39,7 @@ export default $links => {
   }
 
   const getPosition = to => {
-    const to = document.querySelector(to)
+    const el = document.querySelector(to)
     return el.offsetParent.offsetTop + el.offsetTop
   }
 
